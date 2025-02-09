@@ -1,9 +1,49 @@
 ---
-title: "About"
+title: ""
 ---
 
-About this site
-
-```{r}
-1 + 1
+```{r identity-table, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(kableExtra)
+identity_keys <- cell_spec(
+  x = c(
+  "Titre", 
+  "E-mail professionnel", 
+  "E-mail personnel", 
+  "Address", 
+  "Statu académique", 
+  "Domaine d'expertise",
+  "Unité // Equipe"
+), format = "html", bold = TRUE)
+identity_values <- c(
+  "Ingénieur", 
+  cell_spec("clement.poupelin@univ-lille.fr", format = "html", link = "mailto:clement.poupelin@univ-lille.fr"), 
+  cell_spec("clementjc.poupelin@gmail.com", format = "html", link = "mailto:clementjc.poupelin@gmail.com"), 
+  "Cité Scientifique / Bâtiment ESPRIT - bureaux S3.39/S3.41/S3.43 - Villeneuve d'Ascq, France<br>Campus Santé / Bâtiment Plateformes-Cancer - Lille, France<br>Campus Pasteur Lille / Bâtiment Calmette 4ème étage - Lille, France", 
+  "Ingénieur d'étude", 
+  "Statistique",
+  cell_spec("Plateformes Lilloises en Biologie et Santé (PLBS) - UAR CNRS 2014 - US Inserm 41 // Plateforme Bilille Bioinformatique et Biostatistique de Lille", format = "html", link = "https://bilille.univ-lille.fr/")
+)
+tibble(
+  keys = identity_keys, 
+  values = identity_values, 
+) %>% 
+  kbl(
+    format = "html", 
+    booktabs = TRUE, 
+    escape = FALSE, 
+    col.names = NULL
+  ) %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed"))
 ```
+
+
+## Compétences principales 
+
+refaire la liste du CV
+
+## Parcours 
+
+Diplomé d'un BAC S SVT je pars en Licence maths à nantes Univ pour continuer en Master Ingé stat. Puis orientation vers la recherche en laboratoire via stage de fin d'étude et premier contrat d'ingé d'étude pour l'unité Maiage de Jouy (plateau paris saclay, mettre liens cliquable à chaque fois).
+
+Puis nouveua contrat pour la plateforme Bilille via un financement RHU pour la recherche sur les maladies neurodégénérative avec pour but principal d'intenfié des biomarqueurs de la SLA.

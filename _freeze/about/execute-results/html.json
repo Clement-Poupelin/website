@@ -1,0 +1,20 @@
+{
+  "hash": "0beb63d9f5d28a67cbe71c9836333f14",
+  "result": {
+    "markdown": "---\ntitle: \"\"\n---\n\n::: {.cell}\n::: {.cell-output-display}\n`````{=html}\n<table class=\"table table-hover table-condensed\" style=\"margin-left: auto; margin-right: auto;\">\n<tbody>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">Titre</span> </td>\n   <td style=\"text-align:left;\"> Ingénieur </td>\n  </tr>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">E-mail professionnel</span> </td>\n   <td style=\"text-align:left;\"> <a href=\"mailto:clement.poupelin@univ-lille.fr\" style=\"     \">clement.poupelin@univ-lille.fr</a> </td>\n  </tr>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">E-mail personnel</span> </td>\n   <td style=\"text-align:left;\"> <a href=\"mailto:clementjc.poupelin@gmail.com\" style=\"     \">clementjc.poupelin@gmail.com</a> </td>\n  </tr>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">Address</span> </td>\n   <td style=\"text-align:left;\"> Cité Scientifique / Bâtiment ESPRIT - bureaux S3.39/S3.41/S3.43 - Villeneuve d'Ascq, France<br>Campus Santé / Bâtiment Plateformes-Cancer - Lille, France<br>Campus Pasteur Lille / Bâtiment Calmette 4ème étage - Lille, France </td>\n  </tr>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">Statu académique</span> </td>\n   <td style=\"text-align:left;\"> Ingénieur d'étude </td>\n  </tr>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">Domaine d'expertise</span> </td>\n   <td style=\"text-align:left;\"> Statistique </td>\n  </tr>\n  <tr>\n   <td style=\"text-align:left;\"> <span style=\" font-weight: bold;    \">Unité // Equipe</span> </td>\n   <td style=\"text-align:left;\"> <a href=\"https://bilille.univ-lille.fr/\" style=\"     \">Plateformes Lilloises en Biologie et Santé (PLBS) - UAR CNRS 2014 - US Inserm 41 // Plateforme Bilille Bioinformatique et Biostatistique de Lille</a> </td>\n  </tr>\n</tbody>\n</table>\n\n`````\n:::\n:::\n\n\n\n## Compétences principales \n\nrefaire la liste du CV\n\n## Parcours \n\nDiplomé d'un BAC S SVT je pars en Licence maths à nantes Univ pour continuer en Master Ingé stat. Puis orientation vers la recherche en laboratoire via stage de fin d'étude et premier contrat d'ingé d'étude pour l'unité Maiage de Jouy (plateau paris saclay, mettre liens cliquable à chaque fois).\n\nPuis nouveua contrat pour la plateforme Bilille via un financement RHU pour la recherche sur les maladies neurodégénérative avec pour but principal d'intenfié des biomarqueurs de la SLA.",
+    "supporting": [
+      "about_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"site_libs/kePrint-0.0.1/kePrint.js\"></script>\r\n<link href=\"site_libs/lightable-0.0.1/lightable.css\" rel=\"stylesheet\" />\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

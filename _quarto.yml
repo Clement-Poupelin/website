@@ -2,19 +2,48 @@ project:
   type: website
   output-dir: docs
 
+theme:
+  dark: darkly
+  light: flatly
+  
 website:
-  title: "website"
+  site-url: https://Clement-Poupelin.github.io/
+  favicon: img/logo_univ_lille2.png
+  title: Clément Poupelin
   navbar:
-    left:
+    background: light
+    title: Clément Poupelin
+    logo: img/logo_univ_lille_gros.png
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: "Projects"
+        menu:
+          - Open16S.qmd
+      - publications.qmd
+      - icon: info-circle-fill
+        href: about.html
+      - href: CV/CV.pdf
+        text: CV
+      - icon: github
+        href: http://github.com/Clement-Poupelin
+      - icon: gitlab
+        href: http://forgemia.inra.fr/clement.poupelin
+      - icon: instagram
+        href: https://www.instagram.com/clement__poupelin
+      - icon: linkedin
+        href: http://www.linkedin.com/in/cl%C3%A9ment-poupelin-7675311a7/
+      - icon: envelope
+        href: mailto:clementjc.poupelin@gmail.com
+  page-footer: 
+    background: light
+    left: Copyright 2025, Clément Poupelin
+    right: This website is built with [Quarto](https://quarto.org/)
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    # theme: cerulean
     toc: true
 
-editor: visual
-
+execute:
+  freeze: auto

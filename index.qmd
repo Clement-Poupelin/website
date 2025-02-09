@@ -1,11 +1,24 @@
 ---
-title: "website"
+title: "Clément Poupelin"
+image: img/IMG_1154_bis.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 22em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: http://www.linkedin.com/in/cl%C3%A9ment-poupelin-7675311a7/
+    - icon: github
+      text: Github
+      href: http://github.com/Clement-Poupelin
+    - icon: gitlab
+      text: Gitlab
+      href: http://forgemia.inra.fr/clement.poupelin/open16s
+    - icon: envelope-at
+      text: Email
+      href: mailto:clementjc.poupelin@gmail.com
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Thanks for checking out my web site!
